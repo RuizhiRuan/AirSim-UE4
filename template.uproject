@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0004001E-08DD-3E3D-6203-B4B6FD6934D8}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UAV_block",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+            "AdditionalDependencies": [
+                "AirSim"
+            ]
+		}
+	],
+    "Plugins": [
+        {
+            "Name": "AirSim",
+            "Enabled": true
+        },
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false
+		}
+    ]	
+}
